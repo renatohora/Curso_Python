@@ -2,6 +2,6 @@
 
 nota1 = float(input('Primeira nota: '))
 note2 = float(input('Segunda nota: '))
-soma = nota1 + note2
-media = soma / 2
-print('O aluno obteve as seguintes notas {} e {}.\nSua media foi de {}'.format(nota1,note2,media))
+media = (nota1 + note2) / 2
+#foi adicionado ao print abaixo uma formataçao que mostra dois digitos apos o . utiliznado :.2f
+print('O aluno obteve as seguintes notas {:.2f} e {:.2f}.\nSua media foi de {:.2f}'.format(nota1,note2,media))
