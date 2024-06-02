@@ -1,0 +1,35 @@
+Manipular cadeias de texto dentro do python.
+--------------------------------------------
+Toda cadeia de strings precisa estar dentro de aspas simples ou duplas.
+
+Operações:
+- Fatiamento
+podemos realizar o fatimanento simples colocando o nome da variavel, e qual o numero do
+fatiamento que queremos.
+Ex.      0123456789101112...20
+frase = 'Curso em video Python'
+frase[9]
+= V #mostra o 9 caracter, lembrando que começa do 0
+Ex2.
+frase[9:13]     - do carcter 9 ate o 13 - lembrando que ele nao coleta o ultimo numero infomado.
+frase[9:21:2]   - do caracter 9 ao 21, e 2 ele pula de 2 em 2 caracteres.
+frase[:5]       - iniciar no começo da string ate o numero indicado no caso 5
+frase[15:]      - do 15 ate o final
+frase[9::3]     - começa no 9 vai ate o final porque nao tem o segundo numero, pulando de 3 em 3
+==================================================================================================
+Analise
+-------
+Coletar informaçoes de uma string, tamanho, qual letra começa, qual termina.
+
+metodos:
+frase = 'Curso em video Python'
+len(frase)              - significa comprimento, mostrando quantos caracteres.
+frase.count('o')        - quantas vezes aparece a letra 0 minuscula. Podendo indicar quando for maiuscula.
+frase.count('o', 0, 13) - conta quantas vezes o 'o' aparece entre 0 e 13, lembrando que o
+                          caracter 13 nao é adicionado no range.
+frase.find('deo')       - Find localiza a string e mostra a posição que ela inicia.
+frase.find('Android')   - quando solicitamos uma busca de uma palavra que nao existe, o python retona
+                          menos um '-1'.
+podemos utilizar o operado in para buscar palavras.
+'Curso' in frase        - Quando é encontrado a palavra o python nesse caso retorna com True.
+
