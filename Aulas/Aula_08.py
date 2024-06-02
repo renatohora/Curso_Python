@@ -23,4 +23,8 @@ print('A Arredondando para baixo é {}.'.format(math.floor(raiz)))
 #https://docs.python.org/3.12/library/index.html
 
 print(emoji.emojize('Ola, Mundo :beating_heart:'))
-print(emoji.emojize('Python is :globe_showing_europe_africa:',))
+print(emoji.emojize('Python is Good!! :globe_with_meridians: '))
+
+
+
+
