@@ -1,5 +1,6 @@
-#Faça um programa eu leia o comprimento do cateto oposto e do cateto adjacente de um triangulo retangulo,  e calcule
-#e mostre o comprimento da hipotenusa.
+''''Faça um programa eu leia o comprimento do cateto oposto e do cateto adjacente de um triangulo retangulo,  e calcule
+#e mostre o comprimento da hipotenusa.'''''
+
 import math
 print('************** Calculando Triangulo Retangulo****************')
 oposto = float(input('Digite o comprimento do Cateto Oposto: '))

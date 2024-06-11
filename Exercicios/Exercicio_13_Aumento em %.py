@@ -1,4 +1,5 @@
-#Faça um algoritimo que leia o salario de um funcionario e mostra seu novo salario com 15% de aumento
+''''Faça um algoritimo que leia o salario de um funcionario e mostra seu novo salario com 15% de aumento'''''
+
 nome = input('Digite o nome do Funcionario: ')
 salario = float(input('Digite o salario do funcionario: R$ '))
 #minha Solução abaixo

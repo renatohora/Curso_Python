@@ -1,4 +1,4 @@
-#faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo
+''''faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo'''''
 #n no codigo abaixo é objeto
 n = input('Digite algo: ')
 #os metodos estao entre parenteres no caso abaixo .is alguma coisa

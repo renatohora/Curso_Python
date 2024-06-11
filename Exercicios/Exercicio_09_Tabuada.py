@@ -1,4 +1,4 @@
-#Faca um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada.
+''''Faca um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada.'''''
 n1 = int(input('Digite um numero inteiro para saber sua tabuada: '))
 t1 = n1 * 1
 t2 = n1 * 2

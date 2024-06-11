@@ -1,5 +1,6 @@
-#Crie um programa que leia quanto dinheiro uma pessoa tem na
-#carteira e mostre quantos dolares ela pode comprar.
+''''Crie um programa que leia quanto dinheiro uma pessoa tem na
+carteira e mostre quantos dolares ela pode comprar.'''''
+
 n = float(input('Digite o valor que deseja converter em em Dolar: R$ '))
 dolar = 5.07
 conversao = n / dolar

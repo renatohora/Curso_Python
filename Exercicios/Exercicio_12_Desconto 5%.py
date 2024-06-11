@@ -1,4 +1,5 @@
-#Faca um algoritimo que leia o preço de um produto e mostra seu novo valor com 5% de desconto
+''''Faca um algoritimo que leia o preço de um produto e mostra seu novo valor com 5% de desconto'''''
+
 produto = float(input('Valor do produto: R$ '))
 #exemplo abaixo podemoc calcular porcentagem
 novo_valor = produto - (produto * 5 / 100)

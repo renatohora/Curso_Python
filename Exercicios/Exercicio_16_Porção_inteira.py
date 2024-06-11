@@ -1,9 +1,10 @@
-#Crie um programa que leia um numero real qualquer pelo teclado, e mostre na tela a sua porção inteira.
-#Digite um numero: 6.127
-#O numero 6.127 tem a parte inteira 6.
-#versão importando toda library
-#adicionar 3 aspas para comentar um trecho inteiro.
-'''import math
+''''Crie um programa que leia um numero real qualquer pelo teclado, e mostre na tela a sua porção inteira.
+Digite um numero: 6.127
+O numero 6.127 tem a parte inteira 6.
+versão importando toda library
+adicionar 3 aspas para comentar um trecho inteiro.'''
+
+import math
 num = float(input('Digite um numero: '))
                                                     #Nesse caso colocar a referencia math.trunc
 print('O numero digitado foi {} e a sua parte inteira é {}'.format(num, math.trunc(num)))

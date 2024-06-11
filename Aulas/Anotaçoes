@@ -1,8 +1,7 @@
 Manipular cadeias de texto dentro do python.
 --------------------------------------------
 Toda cadeia de strings precisa estar dentro de aspas simples ou duplas.
-
-Operações:
+erações:
 - Fatiamento
 podemos realizar o fatimanento simples colocando o nome da variavel, e qual o numero do
 fatiamento que queremos.
@@ -32,4 +31,38 @@ frase.find('Android')   - quando solicitamos uma busca de uma palavra que nao ex
                           menos um '-1'.
 podemos utilizar o operado in para buscar palavras.
 'Curso' in frase        - Quando é encontrado a palavra o python nesse caso retorna com True.
+==================================================================================================
+Transformação
+-------------
+Um dos metodos para modificar seria o replace que encontra a string e modifica pela que eu indicaar
+frase = 'Curso em video Python'
+frase.replace('Python', 'Androide') - ao lado eu troco a palavra python pela androide.
+frase.upper()                       - transformara toda a variavel em maiuscula.
+frase.lower()                       - transformara toda a variavel em minusculo.
+frase.capitalize()                  - converte toda string em minusculo, e primeira letra em maiuscula.
+frase.title()                       - tornara toda incial de cada letra em maiusculo. Analise é feita com base nos espaços.
+frase.strip()                       - remove espaços antes e depois da strings, mantendo os espaçoes do meio
+frase.rstrip()                      - remove espaços inuteis da direita (r) ou esquerda(l)  da string
+==================================================================================================
+Divisão
+-------
+função para dividir a string, nesse caso cada palavra recebe uma indexação nova (0, 1 ,...),
+colocando cada palavra dentro de uma lista com todas as palavras de uma cadeia de caracteres.
+
+segue exemplo abaixo:
+frase.split - divisao dentro da string considerando os espaços.
+resultado - Curso em video Python
+            ----- -- ----- ------
+               0   1    2     3
+==================================================================================================
+junção
+------
+Faz o oposto do divisão, ele junta as strings utilizando caracter que eu adicionar entre aspas
+('') para separar as strings.
+Exemplo:
+'-'.join(frase) - resultado com traço - Curso-em-Video-Python
+Obs.: Caso queira *,%,# ou qualquer outro colocar no lugar do traço acima entre aspas.
+
+
+
 

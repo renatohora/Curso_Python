@@ -1,3 +1,4 @@
+''''Crie uma tabuada'''
 num = int(input('Digite um numero: '))
 #utilizar o print com com caracter dentro de '' aspast e quantas vezes repetir esse caracter
 print('=' * 15)

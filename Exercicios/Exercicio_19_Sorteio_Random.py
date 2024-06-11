@@ -1,5 +1,6 @@
-#Um professor quer sortear um dos seus quatros alunos para apagar o quadro. Faça um programa que ajude ele, lendo
-#o nome deles e escrevendo o nome do escolhido na tela.
+''''Um professor quer sortear um dos seus quatros alunos para apagar o quadro. Faça um programa que ajude ele, lendo
+#o nome deles e escrevendo o nome do escolhido na tela.'''''
+
 import random
 n1 = str(input('Primeiro aluno: '))
 n2 = str(input('Segundo aluno: '))

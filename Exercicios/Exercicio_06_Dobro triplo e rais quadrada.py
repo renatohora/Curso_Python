@@ -1,4 +1,4 @@
-#Crie um algoritimo que leia um numero e mostre seu dobro, triplo e raiz quadrada
+''''Crie um algoritimo que leia um numero e mostre seu dobro, triplo e raiz quadrada'''''
 
 n1 = int(input('Digite um numero inteiro: '))
 dobro = n1 * 2
