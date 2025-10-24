@@ -7,5 +7,5 @@ largura = float(input('Digite a largura da Parade: '))
 metragem = altura * largura
 tinta = metragem / 2
 print('A parede descrita tem {:.2f} metros quadrados'.format(metragem))
-print('Para realizar a pintura dessa parede é necessario {:.3f} litros de tinta.'.format(tinta))
+print('Para realizar a pintura dessa parede é necessario {:.2f} litros de tinta.'.format(tinta))
 
